@@ -1,0 +1,220 @@
+@charset "UTF-8";
+.wrap {
+  width: 7.2rem;
+  background: #f5f5f5;
+  min-height: 100%;
+  padding-bottom: 3rem;
+}
+
+.my-info {
+  background: url('https://m.mi.com/views/user/index/img/bg_0425a88.png') no-repeat #f37d0f;
+  background-size: auto 100%;
+  padding: .32rem 0;
+}
+
+.my-info-in , .my-dingdan , .my-xiangqing{
+  display: flex;
+  align-items: center;
+}
+
+.my-img {
+  background: url(https://m.mi.com/views/user/index/img/avatar_e29d6cb.png) no-repeat;
+  background-size: 100% auto;
+  margin: 0 .16rem 0 .32rem;
+  width: .96rem;
+  min-width: .96rem;
+  height: .96rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+.my-name {
+  color: #fff;
+  font-size: .24rem;
+}
+
+.my-dingdan {
+  justify-content: space-between;
+  padding-right: .56rem;
+  height: .8rem;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  position: relative;
+  color: rgba(0,0,0,.54);
+  background: #fff;
+}
+
+.my-main {
+  font-size: .28rem;
+  padding: 0 0 0 .32rem;
+  color: rgba(0,0,0,.87);
+}
+
+.my-all:after {
+  content: "";
+  position: absolute;
+  right: .32rem;
+  top: 50%;
+  width: .2rem;
+  height: .2rem;
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  transform: translate3d(0,-50%,0) rotateZ(135deg);
+}
+
+.my-xiangqing {
+  justify-content: space-around;
+  background: #fff;
+}
+
+.my-xiangqing-items {
+  text-align: center;
+  font-size: .24rem;
+  color: rgba(0,0,0,.87);
+  padding: .37rem 0;
+}
+.my-xiangqing-items div[class*='items'] {
+  width: .48rem;
+  height: .48rem;
+  background-size: 100% auto;
+  margin: .16rem auto ;
+}
+
+.my-xiangqing-items .items-1 {
+  background: url(https://m.mi.com/views/user/index/img/nav-1_f74ca94.png) no-repeat;
+}
+
+.my-xiangqing-items .items-2 {
+  background: url(https://m.mi.com/views/user/index/img/nav-2_a05a641.png) no-repeat;
+}
+
+.my-xiangqing-items .items-3 {
+  background: url(https://m.mi.com/views/user/index/img/nav-4_42676a4.png) no-repeat;
+}
+
+.my-items li {
+  height: 1.04rem;
+  line-height: 1.04rem;
+  font-size: .28rem;
+  background: #fff;
+  color: rgba(0,0,0,.87);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.my-items div[class *= 'my-items'] {
+  padding-left: .5rem;
+  background-size: .48rem auto;
+  width: .48rem;
+  height: 100%;
+}
+
+.my-items span:after {
+  content: "";
+  position: absolute;
+  right: .32rem;
+  top: 50%;
+  width: .2rem;
+  height: .2rem;
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  color: rgba(0,0,0,.54);
+  transform: translate3d(0,-50%,0) rotateZ(135deg);
+}
+.my-items-1 {
+  background: url(https://m.mi.com/views/user/index/img/i-member_f0d77b3.png)no-repeat center .25rem;
+}
+
+.my-items-2 {
+  background: url(https://m.mi.com/views/user/index/img/i-wallet_13a8fda.png)no-repeat center .25rem;
+}
+
+.my-items-3 {
+  background: url(https://m.mi.com/views/user/index/img/i-service_7b9f412.png)no-repeat center .25rem;
+}
+
+.my-items-4 {
+  background: url(https://m.mi.com/views/user/index/img/i-mihome_c836072.png)no-repeat center .25rem;
+}
+
+.my-items-5 {
+  background: url(https://m.mi.com/views/user/index/img/i-fcode_9c700c5.png)no-repeat center .25rem;
+}
+
+.my-items-6 {
+  background: url(https://m.mi.com/views/user/index/img/i-setting_4ddebe5.png)no-repeat center .25rem;
+}
+
+.my-items p {
+  color: rgba(0,0,0,.87);
+  width: 6.2rem;
+  background-size: .48rem auto;
+  font-size: .28rem;
+  margin-left: -.25rem;
+}
+
+.margin-top {
+  margin-top: .15rem !important;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #f5f5f5;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: #FFF;
+  z-index: 99;
+  border-top: 1px solid #e0e0e0;
+}
+
+footer ul {
+  width: 7.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer li {
+  padding: .12rem 0;
+  width: 1.8rem;
+}
+footer li>div {
+    width: .4rem;
+    height: .4rem;
+    background-image: url(https://m.mi.com/component/footer/img/spr1_5b2e09c.png);
+    background-size: .4rem 3.2rem;
+    overflow: hidden;
+    margin: 0 auto .08rem;
+}
+
+footer .footer-nav1 {
+  background-position-y: -2.8rem;
+}
+
+footer .footer-nav11 {
+  background-position-y: -1.6rem  !important;
+}
+
+footer .footer-nav2 {
+  background-position-y: -0.4rem;
+}
+
+footer .footer-nav3 {
+  background-position-y: -1.2rem;
+}
+
+footer .footer-nav4 {
+  background-position-y: -2rem;
+}
+
+footer li>p {
+  line-height: .8;
+  font-size: .22rem;
+  color: #999;
+}
+
+.color {
+  color: #FF5722 !important;
+}

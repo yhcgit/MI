@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 7.2rem;
+  height: 100%;
+  position: relative;
+}
+
+.top-header {
+  background-color: #fafafa;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.header-miTop-info {
+  width: 100%;
+  height: .85rem;
+  line-height: .85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.miTop-logo {
+  width: 1rem;
+  padding: 0 .25rem;
+  box-sizing: border-box;
+}
+
+.miTop-logo img {
+  width: .5rem;
+}
+
+.miTop-search {
+  line-height: .34rem;
+  background: url('./images/search_df67e2f.png') no-repeat;
+  background-size: 101% 101%;
+  width: 5.2rem;
+  height: .53rem;
+  border-radius: .05rem;
+  border: 1px solid #e5e5e5;
+}
+
+.miTop-search a {
+  display: block;
+  padding: .1rem .6rem;
+  font-size: .26rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.miTop-login {
+  font-size: .28rem;
+  text-align: center;
+  color: #969696;
+  margin: 0 .22rem;
+  white-space: nowrap;
+}
+
+.top-header nav {
+  position: relative;
+  width: 7.2rem;
+  /*height: 28px;*/
+  /*overflow: hidden;*/
+}
+
+.top-header .box {
+  width: 7.2rem;
+  overflow: scroll;
+}
+
+.header-nav-menu {
+  display: flex;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  display: none;/*隐藏滚轮*/
+}
+
+
+.header-nav-menu li {
+  font-size: .26rem;
+  margin: 0 .28rem;
+  height: .56rem;
+  line-height: .56rem;
+  color: #747474;
+  text-align: center;
+}
+
+.header-nav-menu-tab {
+  border-bottom : 2px solid #ed5b00;
+  color: #ed5b00 !important ;
+}
+
+.swiper-container {
+  height: 188px;
+  width: 7.2rem;
+  margin-top: 1.45rem;
+}
+
+.swiper-pagination {
+  text-align: right;
+  bottom: .1rem ;
+  right: .3rem ;
+}
+
+.swiper-pagination-bullet {
+  width: .1rem;
+  height: .1rem;
+  margin: 0 .1rem;
+  border-radius: .05rem;
+  background-color: #fff;
+  opacity: .6;
+  box-shadow: 0 0 1px #ccc;
+
+}
+
+.swiper-pagination-bullet-active{
+  opacity: .9;
+  background: #f8f8f8;
+  box-shadow: 0 0 2px #ccc;
+}
+
+.swiper-slide img{
+  height: auto;
+  width: 7.2rem;
+}
+
+.main-mi-info {
+  display: flex;
+}
+.main-mi-info .img {
+  width: 1.44rem;
+  height: 1.52rem;
+  left: 2.88rem;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-mi-shopnews {
+  display: flex;
+  border-top: 1px solid #ccc;
+  align-items: center;
+}
+
+.main-news-left {
+  width: 1.5rem;
+}
+.main-news-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-news-right {
+  padding-left: .2rem;
+  margin : .23rem 0 .23rem .2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  color: #000;
+  font-size: .24rem;
+  border-left: 1px solid #ccc;
+}
+.main-news-right a {
+  color: #000;
+}
+
+.main-mi-items {
+  border: 12px solid #f0f0f0;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  height: 5.08rem;
+}
+
+
+
+.items-img {
+  position: absolute;
+  width: 3.58rem;
+  height: 2.52rem;
+  left: 3.62rem;
+}
+
+.items-big{
+  width: 3.58rem;
+  height: 5.08rem;
+  left: 0;
+}
+
+.items-last {
+  top: 2.56rem;
+}
+
+.main-mi-bigimg {
+  width: 7.2rem;
+  border-bottom: 12px solid #f0f0f0;
+  height: auto;
+}
+
+.main-min-border {
+  border: none;
+  margin-bottom: .05rem;
+}
+
+.main-mi-live {
+  width: 100%;
+}
+.main-mi-live-img {
+  width: 3.5rem;
+  display: inline-block;
+  margin-right: .059rem;
+  margin-bottom: .1rem;
+}
+
+.main-mi-live-img-first {
+  width: 7.2rem;
+}
+
+.main-mi-live-img-kuan {
+  width: 4.61rem;
+}
+
+.main-mi-live-img-kuan img ,.main-mi-live-img-zhai img {
+  height: 3.2rem;
+}
+
+.main-mi-live-img-zhai {
+  width: 2.4rem;
+}
+
+.main-mi-morenews {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .28rem;
+}
+
+.main-mi-border {
+  border-top: 10px solid #f0f0f0;
+}
+
+.main-m-border {
+  border-bottom: 10px solid #f0f0f0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: #FFF;
+  z-index: 99;
+  border-top: 1px solid #e0e0e0;
+}
+
+footer ul {
+  width: 7.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer li {
+  padding: .12rem 0;
+  width: 1.8rem;
+}
+footer li>div {
+    width: .4rem;
+    height: .4rem;
+    background-image: url(https://m.mi.com/component/footer/img/spr1_5b2e09c.png);
+    background-size: .4rem 3.2rem;
+    overflow: hidden;
+    margin: 0 auto .08rem;
+}
+
+footer .footer-nav1 {
+  background-position-y: -2.8rem;
+}
+
+footer .footer-nav11 {
+  background-position-y: -2.4rem;
+}
+
+footer .footer-nav2 {
+  background-position-y: -0.4rem;
+}
+
+footer .footer-nav3 {
+  background-position-y: -1.2rem;
+}
+
+footer .footer-nav4 {
+  background-position-y: -2rem;
+}
+
+footer li>p {
+  line-height: .8;
+  font-size: .22rem;
+  color: #999;
+}
+
+.color {
+  color: #FF5722 !important;
+}
